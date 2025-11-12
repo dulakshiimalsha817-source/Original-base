@@ -28,6 +28,7 @@ const {
 const config = {
     SANNU_FOOTER: 'Mini Bot',
     AUTO_VIEW_STATUS: 'true',
+	AUTO_RICAT: ['😌',],
     AUTO_LIKE_STATUS: 'true',
     AUTO_RECORDING: 'true',
     AUTO_LIKE_EMOJI: ['😒', '🍬', '💝', '💗', '🎈', '🎉', '🥳', '❤️', '💕', '👨‍🔧'],
@@ -554,7 +555,7 @@ case 'setting': {
         'AUTO_VIEW_STATUS',
         'AUTO_LIKE_STATUS',
         'AUTO_RECORDING',
-        
+        'AUTO_RICAT',
     ];
 
     // Emoji map for each setting
